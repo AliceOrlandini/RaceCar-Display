@@ -1,0 +1,41 @@
+{
+  "name": "etdv_display",
+  "version": "1.0.0",
+  "description": "Car display",
+  "main": "main.js",
+  "scripts": {
+    "start": "APP_DEV=true electron . --no-sandbox",
+    "front_dev": "APP_DEV=true APP_FRONT_DEV=true electron . --no-sandbox",
+    "dist": "electron-builder",
+    "css": "npx tailwindcss -i ./public/src/css/input.css -o ./public/src/css/style.css --watch"
+  },
+  "author": "Alice Orlandini",
+  "license": "ISC",
+  "build": {
+    "appId": "eteam.etdv_display",
+    "linux": {
+      "category": "System",
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.2.10",
+    "electron": "^23.2.1",
+    "electron-builder": "^24.2.1",
+    "electron-reload": "^2.0.0-alpha.1",
+    "tailwindcss": "^3.2.6"
+  },
+  "dependencies": {
+    "@electron/asar": "^3.2.3",
+    "chart.js": "^4.2.1",
+    "ros2nodejs": "^0.1.0",
+    "sweetalert2": "^11.7.5"
+  }
+}

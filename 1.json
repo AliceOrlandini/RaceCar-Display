@@ -1,0 +1,64 @@
+{
+  "name":"1",
+  "driver":"pippo",
+  "type":"acceleration",
+  "settings":[
+    {
+      "id":"acceleration_curve",
+      "name":"Acceleration Curve",
+      "numEl":0,
+      "acceptable_values":["costant","linear","exponential"],
+      "selected_value":0,
+      "value":"costant",
+      "max":2
+    },
+    {
+      "id":"slip_coefficient",
+      "name":"Slip Coefficient",
+      "numEl":1,
+      "value":1,
+      "max":100,
+      "min":0
+    },
+    {
+      "id":"torque_limiter",
+      "name":"Torque Limiter",
+      "numEl":2,
+      "value":2,
+      "max":100,
+      "min":0
+    },
+    {
+      "id":"maximum_lateral_g-force",
+      "name":"Max G-Force",
+      "numEl":3,
+      "value":0,
+      "max":100,
+      "min":0
+    },
+    {
+      "id":"torque_distribution",
+      "name":"Torque Distribution",
+      "numEl":4,
+      "value":0,
+      "max":100,
+      "min":0
+    },
+    {
+      "id":"prova_1",
+      "name":"Prova 1",
+      "numEl":5,
+      "value":0,
+      "max":100,
+      "min":0
+    },
+    {
+      "id":"prova_2",
+      "name":"Prova 2",
+      "numEl":6,
+      "value":15,
+      "max":100,
+      "min":0
+    }
+  ]
+}
