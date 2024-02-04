@@ -14,7 +14,7 @@ git clone https://github.com/yourusername/racecar-display.git
 ```
 Navigate to the project directory:
 ```console
-cd racecar-display
+cd RaceCar-Display
 ```
 Install dependencies:
 ```console
