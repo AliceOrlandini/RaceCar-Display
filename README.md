@@ -10,7 +10,7 @@ RaceCar-Display is an **Electron.js** and **TailwindCSS**-based application that
 ## Getting Started
 Clone the repository:
 ```console
-git clone https://github.com/yourusername/racecar-display.git
+git clone https://github.com/AliceOrlandini/RaceCar-Display.git
 ```
 Navigate to the project directory:
 ```console
